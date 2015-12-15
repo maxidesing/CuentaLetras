@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+
+
+  <div class="container">
+    <div class="row">
+    <h1>Contador de letras</h1>
+      <div class="form-group">
+        <label for="frase">Ingresa el texto</label>
+        <textarea name="text" id="frase" required="required" class="form-control" rows="8" placeholder="Texto....."></textarea>
+      </div>
+      <button id="contar" class="btn btn-primary btn-lg">contar</button>
+    </div>
+
+    <div class="row col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            conteo de vocales
+          </h3>
+        </div> 
+        <table class="table">
+          <th>Letra</th><th>Repeticiones</th>
+          <tr> <td>A</td> <td><span id="a-vocal"></span></td></tr>
+          <tr> <td>E</td> <td><span id="e-vocal"></span></td></tr> 
+          <tr> <td>I</td> <td><span id="i-vocal"></span></td></tr>
+          <tr> <td>O</td> <td><span id="o-vocal"></span></td></tr> 
+          <tr> <td>U</td> <td><span id="u-vocal"></span></td></tr> 
+        </table>
+      </div>
+    </div>
+
+    <div class="row col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            conteo de consonantes
+          </h3>
+        </div> 
+        <table class="table">
+          <th>Letra</th><th>Repeticiones</th>
+          <tr> <td>B</td> <td><span id="b-con"></span></td></tr>
+          <tr> <td>C</td> <td><span id="c-con"></span></td></tr> 
+          <tr> <td>D</td> <td><span id="d-con"></span></td></tr>
+          <tr> <td>F</td> <td><span id="f-con"></span></td></tr> 
+          <tr> <td>G</td> <td><span id="g-con"></span></td></tr> 
+          <tr> <td>H</td> <td><span id="h-con"></span></td></tr>
+          <tr> <td>J</td> <td><span id="j-con"></span></td></tr>
+          <tr> <td>K</td> <td><span id="k-con"></span></td></tr>
+          <tr> <td>L</td> <td><span id="l-con"></span></td></tr>
+          <tr> <td>M</td> <td><span id="m-con"></span></td></tr>
+          <tr> <td>N</td> <td><span id="n-con"></span></td></tr>
+          <tr> <td>Ñ</td> <td><span id="ñ-con"></span></td></tr>
+          <tr> <td>P</td> <td><span id="p-con"></span></td></tr>
+          <tr> <td>Q</td> <td><span id="q-con"></span></td></tr>
+          <tr> <td>R</td> <td><span id="r-con"></span></td></tr>
+          <tr> <td>S</td> <td><span id="s-con"></span></td></tr>
+          <tr> <td>T</td> <td><span id="t-con"></span></td></tr>
+          <tr> <td>V</td> <td><span id="v-con"></span></td></tr>
+          <tr> <td>W</td> <td><span id="w-con"></span></td></tr>
+          <tr> <td>X</td> <td><span id="x-con"></span></td></tr>
+          <tr> <td>Y</td> <td><span id="y-con"></span></td></tr>
+          <tr> <td>Z</td> <td><span id="z-con"></span></td></tr>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
